@@ -3,7 +3,7 @@ body{
 }
 
 hr{
-    height: 10px;
+    height: 8px;
     background-color: #f56a6a;
     
 }
@@ -12,6 +12,7 @@ P{
     font-family: sans-serif;
     color: #7f888f;
     text-align: justify;
+    font-size: 1.5em;
     
 }
 span{
@@ -28,6 +29,7 @@ span{
 .imagen
 {
     width: 80%;
+    border-radius: 10px;
 }
 
 .contenedor-principal
@@ -35,4 +37,81 @@ span{
     display: grid;
     grid-template-columns: 50% 50%;
 
+}
+
+input {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    display: inline;
+    padding: 8px 18px;
+    margin: 9px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+#b_boton {
+    color: #f56a6a;
+    border: 1.3px solid #f56a6a;
+}
+
+input:hover {
+    background: #2c3e501a;
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid #2c3e501a;
+}
+
+.linea-gris{
+    background-color: #7f888f;
+    height: 3px;
+}
+
+.linea-peque{
+    height: 5px;
+    width: 10%;
+    color: #f56a6a;
+    margin-left: 0%;
+    margin-right: 20%;
+}
+
+.wrapper2{
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.parrafos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em
+
+}
+
+
+.content
+{
+    display: flex;
+}
+
+.imagenes
+{
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+
+i{
+    font-size: 50px;
+    color: #f56a6a;
+}
+
+.erat h2{
+    color: black;
+    
+}
+
+.portitor{
+    color: black;
 }
