@@ -1,0 +1,38 @@
+body{
+    background-color: #F4F6F7;
+}
+
+hr{
+    height: 10px;
+    background-color: #f56a6a;
+    
+}
+
+P{
+    font-family: sans-serif;
+    color: #7f888f;
+    text-align: justify;
+    
+}
+span{
+    color: black;
+}
+
+.wrapper
+{
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.imagen
+{
+    width: 80%;
+}
+
+.contenedor-principal
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
